@@ -8,5 +8,7 @@ import { Hero } from '../hero';
 })
 
 export class HeroDetailComponent {
+  // @input pass data from parent to child
+  // @ouput send child data to parent componet
   @Input() hero?: Hero;
 }
